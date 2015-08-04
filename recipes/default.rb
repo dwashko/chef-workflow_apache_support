@@ -12,3 +12,5 @@ include_recipe 'iptables'
 iptables_rule 'workflow' do
   source 'iptables/workflow'
 end
+
+include_recipe 'workflow_apache_support::docroot'

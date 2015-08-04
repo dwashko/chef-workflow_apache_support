@@ -7,7 +7,7 @@
 # All rights reserved - Do Not Redistribute
 #
 
-template "#{node['apache']['docroot_dir']}/index.html" do
+template "#{node['workflow_support']['docroot']['mount_point']}/index.html" do
   source 'index.html.erb'
   owner node['apache']['user']
   group node['apache']['group']

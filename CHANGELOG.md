@@ -1,3 +1,7 @@
+0.4.0
+-----
+- [daniel washko] - Changes to docroot and disk. Creates docroot directory if disk is not set. This required altering recipes and tests.
+
 0.3.0
 -----
 - [daniel washko] - working on kitchen and serverspec

@@ -4,7 +4,7 @@ require 'chefspec'
 require 'spec_helper'
 require 'fauxhai'
 
-describe 'workflow_support::homepage' do
+describe 'workflow_apache_support::homepage' do
   context 'centos' do
     let(:chef_run) do
       ChefSpec::SoloRunner.new do |node|
